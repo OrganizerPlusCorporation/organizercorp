@@ -1,7 +1,5 @@
 package first.project.nikzhebindev.organizerplus.ShareNotePackage;
 
-public class ShareNote {
-
-
-
+public abstract class ShareNote {
+    abstract void Share(ShareNoteData data);
 }
